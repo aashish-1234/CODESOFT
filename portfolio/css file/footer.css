@@ -1,0 +1,35 @@
+.footer_main{
+	width: 100%;
+	height: 230px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: darkorange;
+	color: navajowhite;
+	font-family:Century Gothic;
+}
+.boxes{
+	/*border: 2px solid red;*/
+	border-right: 2px dotted navajowhite;
+	min-width:200px;
+	max-width: 250px;
+	height: 230px;
+	padding:15px;
+	box-sizing: border-box;
+}
+.boxes p{
+	text-align: justify;
+}
+.links a{
+	font-size: 25px;
+	margin: 10px 5px;
+	text-decoration: none;
+}
+.boxes li{
+	list-style: none;
+	line-height: 30px;
+}
+.boxes a{
+	text-decoration: none;
+	color: navajowhite;
+}
